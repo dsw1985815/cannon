@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.mengkang</groupId>
+    <groupId>net.</groupId>
     <artifactId>netty-restful-server</artifactId>
     <version>1.0.1</version>
 
     <packaging>jar</packaging>
-    <url>http://mengkang.net/nettyrest/</url>
+    <url>http://.net/nettyrest/</url>
 
     <licenses>
         <license>
@@ -21,7 +21,7 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/zhoumengkang/netty-restful-server/issues</url>
+        <url>https://github.com/zhou/netty-restful-server/issues</url>
     </issueManagement>
 
     <properties>
@@ -56,7 +56,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>net.mengkang.demo.ServerLauncher</mainClass>
+                            <mainClass>com.dongsw.demo.ServerLauncher</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
